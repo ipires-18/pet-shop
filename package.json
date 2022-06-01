@@ -1,0 +1,19 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ipires-18/pet-shop.git",
+  "author": "Ian Oliveira",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
